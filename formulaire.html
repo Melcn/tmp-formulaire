@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formualaire.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+        <h1>Votre reservation d'hotel</h1>
+        <h2>*champs obligatoires</h2>
+    </header>
+
+    <main>
+        <form action="">
+            <label for="name">Nom : </label>
+            <input type="text" placeholder="DUPONT" /> 
+
+            <label for="">Prenom : </label>
+            <input type="text" placeholder="Jean" />
+
+            <label for="tel">Telephone : </label>
+            <input type="tel" placeholder="0606060606">
+
+            <label for="mail">Email : </label>
+            <input type="email" placeholder="dupontjean@mail.fr">
+
+            <label for="">Slectionner la Ville : </label>
+            <select> 
+                <option value="ville">Paris</option>
+                <option value="ville">Lille</option>
+                <option value="ville">Marseille</option>
+            </select>
+
+            <label for="">Date d'arrivée : </label>
+            <input type="date">
+            
+            <label for="">Nombre de personnes : </label>
+           <input type="number">
+       
+            <label for="">Vos Options: </label>
+            <div class="option">
+                <label for="">Clim</label><input type="checkbox">
+                <label for="">Mini bar</label><input type="checkbox">
+                <label for="">Jaczzi</label><input type="checkbox">
+            </div>
+
+            <label for="">Commentaires : </label>
+            <textarea>Ecrivez votre commentaire</textarea>
+            
+            <label for="radio">Acceptation des conditions generales de ventes</label>
+            <div class="cgv">
+                <label for="accept">J'accepte</label><input type="radio" name="cgv">
+                <label for="refuse">Je refuse</label><input type="radio" name="cgv">
+            </div>
+
+            <button type="submit" name="submit">Envoyer ma demande</button>
+
+        </form>
+    </main>
+</body>
+</html>
